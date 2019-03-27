@@ -1,0 +1,87 @@
+
+/* standard elements */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 15px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: blue;
+    padding: 5px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: green;
+    padding: 5px;
+}
+
+p {
+    font-size: 1.1rem;
+    padding: 5px;
+}
+div {
+    padding: 5px;
+}
+
+/* IDs */
+
+
+
+/* classes */
+
+.form-head {
+    color: white;    
+    border-radius: 5px 5px 0px 0px;
+    background-color: goldenrod;
+//    padding: 15px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.form-group {
+    border-radius: 0px 0px 5px 5px;
+    background-color: lightgoldenrodyellow;
+    padding: 15px;
+    font-weight: 600;
+    border: 1px solid goldenrod;
+    margin: 0px;
+}
+
+input[type=submit].myForm {
+    width: 100%;
+    background-color: goldenrod;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    border: 0px; 
+    cursor: pointer; 
+    max-width: 300px;      
+  }
+  
+  input[type=submit].myForm:hover {
+    background-color: gold;
+    color: gray;    
+    border: 0px;
+  }
+
+
+/* Bootstrap Classes */
+
+/* .col-md-4 {
+    border: 1px solid blue;
+}
+.row {
+    border:  1px solid red;
+} */
+

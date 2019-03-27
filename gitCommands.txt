@@ -1,0 +1,38 @@
+
+
+
+
+
+
+// Initialize the current working directory
+git commit -m "Init Commit"
+
+// After init and creating a New Repository, this will upload the local repository
+git remote add origin https://github.com/hitman62/*.git
+
+// Check status of files
+git status
+
+// Add all files within this directory, Use filename to add just one file
+git add -A
+
+// Add to staging
+git commit -m "DESCRIPTION"
+
+// Pull down latest files (never tried)
+git push origin master
+
+// Push to git
+git push origin master
+
+// Clone a current repository from github
+git clone https://github.com/*/*.git
+
+// Create .gitignore file
+touch .gitignore
+
+// Remove .git repository
+rm -rf .git
+
+// Check version
+git --version

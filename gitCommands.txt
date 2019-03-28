@@ -1,15 +1,6 @@
 
 
-
-
-
-
-// Initialize the current working directory
-git commit -m "Init Commit"
-
-// After init and creating a New Repository, this will upload the local repository
-git remote add origin https://github.com/hitman62/*.git
-
+* Update Repository From Local Commands *
 // Check status of files
 git status
 
@@ -19,14 +10,19 @@ git add -A
 // Add to staging
 git commit -m "DESCRIPTION"
 
-// Pull down latest files (never tried)
-git push origin master
+// Pull down latest files (never tried for checking for updates)
+git pull origin master
 
 // Push to git
 git push origin master
 
-// Clone a current repository from github
-git clone https://github.com/*/*.git
+
+* Setup New Repository *
+// Initialize the current working directory
+git commit -m "Init Commit"
+
+// After init and creating a New Repository, this will upload the local repository
+git remote add origin https://github.com/hitman62/*.git
 
 // Create .gitignore file
 touch .gitignore
@@ -34,5 +30,15 @@ touch .gitignore
 // Remove .git repository
 rm -rf .git
 
+
+* Clone A Repository *
+// Clone a current repository from github
+git clone https://github.com/*/*.git
+
+
+* MISC Commands *
 // Check version
 git --version
+
+See all config values
+// git config -l
